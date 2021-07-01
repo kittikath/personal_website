@@ -1,4 +1,5 @@
 import logo from './logo.svg';
+import eggontoast from './eggontoast.svg'
 import './App.css';
 
 function App() {
@@ -7,16 +8,19 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Welcome to my personal page! My name is Kath. 
+           {/*Remember to <code>src/App.js</code> and save to reload. */}
         </p>
+        <h3>CSS Art</h3>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://codepen.io/kittikath/pen/WNjbzXK"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Check out my Egg on Toast :) 
         </a>
+        <img src={eggontoast} alt="logo" />
       </header>
     </div>
   );
